@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9FBDBA;
+    background: rgb(134, 176, 171);
+    background: linear-gradient(180deg, 
+                rgba(134, 176, 171, 1) 0%, 
+                rgba(143, 184, 182, 1) 35%, 
+                rgba(172, 205, 200, 1) 100%);
+    font-family: 'Roboto', sans-serif; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.icono{
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.fa-user, .fa-chevron-down{
+    color: white;
+}
+.nav-list img{
+    cursor: pointer;
+}
+/* seccion texto y video*/
+.uno{
+    width: 100%;
+    height: 85vh;
+    box-shadow: 0px 4px 5px -3px rgba(138,135,138,1);
+    background: rgb(134, 176, 171);
+}
+.contenedor-principal{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+     
+}
+.texto{
+    width: 550px;
+    height: 400px;
+    margin-left: 40px;
+}
+.texto h1{
+    margin-top: 40px;
+    font-size:70px;
+    
+    line-height: 1;
+    
+}
+span{
+    display: flex;
+    margin-left: 130px;
+
+   
+}
+
+.texto h4{
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+.texto p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    width:100%;
+}
+
+.btn-contacto{
+    border: none;
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    background-color: #badeda;
+    margin-top: 3px;
+    
+
+}
+.btn-ejemplo , .btn-hablanos{
+    border: none;
+    padding: 0px 12px;
+    border-radius: 20px;
+    color:black;
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+}
+.btn-ejemplo {
+font-weight: 600;
+background-color: #badeda;
+}
+ .btn-hablanos{
+    background-color: rgb(13, 13, 48);
+    color:#badeda;
+    margin-left: 0;
+    }
+
+.video-img{
+    position: relative;
+}
+ #video{
+    margin-top: 40px;
+    width: 600px;
+    height:550;
+    right: 20px;
+    border-radius: 20px;
+   box-shadow: 3px 18px 29px -10px rgba(0,0,0,0.75);
+ }
+
+.imagenes{  
+    position: relative;
+}
+
+ .tresPuntos{
+    width: 50px;
+    height: 50px;
+    align-self: flex-start;
+    position: absolute;
+    bottom: 300px;
+    left: 20px;
+ }
+
+.pepina{
+    position: absolute;
+    left: 560px;
+    bottom: 300px;
+    width: 70px;
+    height: 70px;
+}
+
+.play{
+    position: absolute;
+    left:540px ;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+}
+/*----Section pagina y tienda---*/
+
+.contenedores{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 30px;
+
+}
+.paginaTienda{
+    display: flex;
+    flex-direction: column;
+   flex-wrap:wrap;
+    width: 500px;
+    height: 120px;
+    border-radius: 90px;
+    background-color: rgb(213, 225, 237);
+    position: relative;
+}
+.paginaTienda img{
+    width: 120px;
+    height: 120px;
+   margin: 3px;
+}
+.paginaTienda h4{
+      padding: 15px;
+    font-size: 20px;
+}
+
+.fa-arrow-right{
+  font-size: 25px;
+  margin-top: 45px;
+}
+
+.precio , .precioTienda{
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 50px;
+    padding: 1px;
+    text-align: center;
+    position: absolute;
+   top: 12px;
+   left: 290px;
+}
+.precioTienda{
+    left: 305px;
+}
